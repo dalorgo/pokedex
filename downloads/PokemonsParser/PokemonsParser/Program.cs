@@ -128,7 +128,7 @@ namespace PokemonsParser
         }
 
         /// <summary>
-        /// Writes the Dictionary object given to the database.
+        /// Writes the Dictionary object given to the database. THIS FUNCTION IS NOT USED!!!
         /// </summary>
         static void writeToDB(Dictionary<string, string> entry)
         {
