@@ -1,0 +1,17 @@
+INSERT INTO Types(GUID, Name) VALUES('9ad4e439-e85d-46cf-b9e4-4e3547c96b9d','Grass');
+INSERT INTO Types(GUID, Name) VALUES('1eeaf21d-0bf7-4dbf-bdf9-aa9edb8b8906','Poison');
+INSERT INTO Types(GUID, Name) VALUES('c9a7bb50-8a78-40aa-9c1f-fcd8af244fc1','Fire');
+INSERT INTO Types(GUID, Name) VALUES('eda20493-20ab-431b-821a-d0ea25f439c4','Flying');
+INSERT INTO Types(GUID, Name) VALUES('b4c56e49-4c0b-421f-9261-4c0980c7de74','Water');
+INSERT INTO Types(GUID, Name) VALUES('1cd5b7e0-5f26-4697-8038-350bbd91dee1','Bug');
+INSERT INTO Types(GUID, Name) VALUES('b03cdf0e-4d7b-4998-b136-86d77edc16ab','Normal');
+INSERT INTO Types(GUID, Name) VALUES('62b4d627-48f2-4122-ae9d-211e9eb115ce','Electric');
+INSERT INTO Types(GUID, Name) VALUES('d45e0ac9-5cca-41fc-b3ac-a6edf5f57e13','Ground');
+INSERT INTO Types(GUID, Name) VALUES('11688900-78cd-4977-94ad-2ce9c37673c6','Fighting');
+INSERT INTO Types(GUID, Name) VALUES('9281a0fd-52fe-4d47-a4ba-03df90906ce1','Psychic');
+INSERT INTO Types(GUID, Name) VALUES('c7425c50-e7c1-49e2-a557-fbe9793ef14e','Rock');
+INSERT INTO Types(GUID, Name) VALUES('68a8b52d-0845-4efa-bb83-39f73d4b7434','Steel');
+INSERT INTO Types(GUID, Name) VALUES('c455a7de-8133-40a8-9854-fa1d2df30616','Ice');
+INSERT INTO Types(GUID, Name) VALUES('1eb333e7-5edd-4ecb-87a2-719b440a6fe1','Ghost');
+INSERT INTO Types(GUID, Name) VALUES('f9841817-0027-4230-9c16-b26a0336f6e3','Dragon');
+INSERT INTO Types(GUID, Name) VALUES('113b1275-2371-4a1c-b2e4-4c801753fef4','Dark');

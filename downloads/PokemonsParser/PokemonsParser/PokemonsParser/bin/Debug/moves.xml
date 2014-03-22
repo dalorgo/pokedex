@@ -1,0 +1,5034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MoveListing xmlns="http://tempuri.org/XMLSchema.xsd">
+  <Move MoveName="Pound">
+    <Number>1</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Karate Chop">
+    <Number>2</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="DoubleSlap">
+    <Number>3</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>15</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Comet Punch">
+    <Number>4</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>18</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Mega Punch">
+    <Number>5</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>80</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Pay Day">
+    <Number>6</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fire Punch">
+    <Number>7</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Ice Punch">
+    <Number>8</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="ThunderPunch">
+    <Number>9</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Scratch">
+    <Number>10</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="ViceGrip">
+    <Number>11</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>55</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Guillotine">
+    <Number>12</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>K/O</Power>
+    <Accuracy>30</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Razor Wind">
+    <Number>13</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Swords Dance">
+    <Number>14</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Cut">
+    <Number>15</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>50</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Gust">
+    <Number>16</Number>
+    <Type>Flying</Type>
+    <Category>Special move</Category>
+    <PP>35</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Wing Attack">
+    <Number>17</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Whirlwind">
+    <Number>18</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fly">
+    <Number>19</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>90</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Bind">
+    <Number>20</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>15</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Slam">
+    <Number>21</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>80</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Vine Whip">
+    <Number>22</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>35</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Stomp">
+    <Number>23</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Double Kick">
+    <Number>24</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>30</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Mega Kick">
+    <Number>25</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Jump Kick">
+    <Number>26</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Rolling Kick">
+    <Number>27</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>60</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sand-Attack">
+    <Number>28</Number>
+    <Type>Ground</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Headbutt">
+    <Number>29</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Horn Attack">
+    <Number>30</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fury Attack">
+    <Number>31</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>15</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Horn Drill">
+    <Number>32</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>K/O</Power>
+    <Accuracy>30</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Tackle">
+    <Number>33</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Body Slam">
+    <Number>34</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>85</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Wrap">
+    <Number>35</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>15</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Take Down">
+    <Number>36</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>90</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Thrash">
+    <Number>37</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Double-Edge">
+    <Number>38</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Tail Whip">
+    <Number>39</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Poison Sting">
+    <Number>40</Number>
+    <Type>Poison</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>15</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Twineedle">
+    <Number>41</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>25</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Pin Missile">
+    <Number>42</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>14</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Leer">
+    <Number>43</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Bite">
+    <Number>44</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Growl">
+    <Number>45</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Roar">
+    <Number>46</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sing">
+    <Number>47</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>55</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Supersonic">
+    <Number>48</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>55</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="SonicBoom">
+    <Number>49</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Disable">
+    <Number>50</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Acid">
+    <Number>51</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Ember">
+    <Number>52</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>25</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Flamethrower">
+    <Number>53</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>95</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Mist">
+    <Number>54</Number>
+    <Type>Ice</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Water Gun">
+    <Number>55</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>25</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Hydro Pump">
+    <Number>56</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Surf">
+    <Number>57</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>95</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Ice Beam">
+    <Number>58</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>95</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Blizzard">
+    <Number>59</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>70</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Psybeam">
+    <Number>60</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="BubbleBeam">
+    <Number>61</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Aurora Beam">
+    <Number>62</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Hyper Beam">
+    <Number>63</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Peck">
+    <Number>64</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>35</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Drill Peck">
+    <Number>65</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Submission">
+    <Number>66</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>80</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Low Kick">
+    <Number>67</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Counter">
+    <Number>68</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Seismic Toss">
+    <Number>69</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Strength">
+    <Number>70</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Absorb">
+    <Number>71</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>25</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Mega Drain">
+    <Number>72</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Leech Seed">
+    <Number>73</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Growth">
+    <Number>74</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Razor Leaf">
+    <Number>75</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>55</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="SolarBeam">
+    <Number>76</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="PoisonPowder">
+    <Number>77</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>35</PP>
+    <Power>None</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Stun Spore">
+    <Number>78</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sleep Powder">
+    <Number>79</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Petal Dance">
+    <Number>80</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="String Shot">
+    <Number>81</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Dragon Rage">
+    <Number>82</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fire Spin">
+    <Number>83</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>35</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="ThunderShock">
+    <Number>84</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Thunderbolt">
+    <Number>85</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>95</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Thunder Wave">
+    <Number>86</Number>
+    <Type>Electric</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Thunder">
+    <Number>87</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>70</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Rock Throw">
+    <Number>88</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>50</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Earthquake">
+    <Number>89</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fissure">
+    <Number>90</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>K/O</Power>
+    <Accuracy>30</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Dig">
+    <Number>91</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Toxic">
+    <Number>92</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Confusion">
+    <Number>93</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>25</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Psychic">
+    <Number>94</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Hypnosis">
+    <Number>95</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>60</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Meditate">
+    <Number>96</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Agility">
+    <Number>97</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Quick Attack">
+    <Number>98</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Rage">
+    <Number>99</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Teleport">
+    <Number>100</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Night Shade">
+    <Number>101</Number>
+    <Type>Ghost</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Mimic">
+    <Number>102</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Screech">
+    <Number>103</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Double Team">
+    <Number>104</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Recover">
+    <Number>105</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Harden">
+    <Number>106</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Minimize">
+    <Number>107</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="SmokeScreen">
+    <Number>108</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Confuse Ray">
+    <Number>109</Number>
+    <Type>Ghost</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Withdraw">
+    <Number>110</Number>
+    <Type>Water</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Defense Curl">
+    <Number>111</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Barrier">
+    <Number>112</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Light Screen">
+    <Number>113</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Haze">
+    <Number>114</Number>
+    <Type>Ice</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Reflect">
+    <Number>115</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Focus Energy">
+    <Number>116</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Bide">
+    <Number>117</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Metronome">
+    <Number>118</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Mirror Move">
+    <Number>119</Number>
+    <Type>Flying</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Selfdestruct">
+    <Number>120</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>200</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Egg Bomb">
+    <Number>121</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Lick">
+    <Number>122</Number>
+    <Type>Ghost</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Smog">
+    <Number>123</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>20</Power>
+    <Accuracy>70</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sludge">
+    <Number>124</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Bone Club">
+    <Number>125</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fire Blast">
+    <Number>126</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Waterfall">
+    <Number>127</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Clamp">
+    <Number>128</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>35</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Swift">
+    <Number>129</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Skull Bash">
+    <Number>130</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Spike Cannon">
+    <Number>131</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Constrict">
+    <Number>132</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>10</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Amnesia">
+    <Number>133</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Kinesis">
+    <Number>134</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Softboiled">
+    <Number>135</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Hi Jump Kick">
+    <Number>136</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>130</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Glare">
+    <Number>137</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Dream Eater">
+    <Number>138</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Poison Gas">
+    <Number>139</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Barrage">
+    <Number>140</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>15</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Leech Life">
+    <Number>141</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Lovely Kiss">
+    <Number>142</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sky Attack">
+    <Number>143</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Transform">
+    <Number>144</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Bubble">
+    <Number>145</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>30</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Dizzy Punch">
+    <Number>146</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Spore">
+    <Number>147</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>0</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Flash">
+    <Number>148</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>0</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Psywave">
+    <Number>149</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Splash">
+    <Number>150</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Acid Armor">
+    <Number>151</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Crabhammer">
+    <Number>152</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Explosion">
+    <Number>153</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>250</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Fury Swipes">
+    <Number>154</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>18</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Bonemerang">
+    <Number>155</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Rest">
+    <Number>156</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Rock Slide">
+    <Number>157</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Hyper Fang">
+    <Number>158</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sharpen">
+    <Number>159</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Conversion">
+    <Number>160</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Tri Attack">
+    <Number>161</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Super Fang">
+    <Number>162</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Slash">
+    <Number>163</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Substitute">
+    <Number>164</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>0</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Struggle">
+    <Number>165</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>1</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>I</Gen>
+  </Move>
+  <Move MoveName="Sketch">
+    <Number>166</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>1</PP>
+    <Power>Varies</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Triple Kick">
+    <Number>167</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>10</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Thief">
+    <Number>168</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Spider Web">
+    <Number>169</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>0</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Mind Reader">
+    <Number>170</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>0</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Nightmare">
+    <Number>171</Number>
+    <Type>Ghost</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Flame Wheel">
+    <Number>172</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Snore">
+    <Number>173</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Curse">
+    <Number>174</Number>
+    <Type>Ghost</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Flail">
+    <Number>175</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Conversion 2">
+    <Number>176</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Aeroblast">
+    <Number>177</Number>
+    <Type>Flying</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Cotton Spore">
+    <Number>178</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Reversal">
+    <Number>179</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Spite">
+    <Number>180</Number>
+    <Type>Ghost</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Powder Snow">
+    <Number>181</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>25</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Protect">
+    <Number>182</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Mach Punch">
+    <Number>183</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Scary Face">
+    <Number>184</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Faint Attack">
+    <Number>185</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sweet Kiss">
+    <Number>186</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Belly Drum">
+    <Number>187</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sludge Bomb">
+    <Number>188</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Mud-Slap">
+    <Number>189</Number>
+    <Type>Ground</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Octazooka">
+    <Number>190</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Spikes">
+    <Number>191</Number>
+    <Type>Ground</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Zap Cannon">
+    <Number>192</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>50</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Foresight">
+    <Number>193</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>0</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Destiny Bond">
+    <Number>194</Number>
+    <Type>Ghost</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Perish Song">
+    <Number>195</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Icy Wind">
+    <Number>196</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>55</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Detect">
+    <Number>197</Number>
+    <Type>Fighting</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Bone Rush">
+    <Number>198</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>25</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Lock-On">
+    <Number>199</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Outrage">
+    <Number>200</Number>
+    <Type>Dragon</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sandstorm">
+    <Number>201</Number>
+    <Type>Rock</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Giga Drain">
+    <Number>202</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Endure">
+    <Number>203</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Charm">
+    <Number>204</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Rollout">
+    <Number>205</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>30</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="False Swipe">
+    <Number>206</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>40</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Swagger">
+    <Number>207</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Milk Drink">
+    <Number>208</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Spark">
+    <Number>209</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Fury Cutter">
+    <Number>210</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>20</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Steel Wing">
+    <Number>211</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>70</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Mean Look">
+    <Number>212</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Attract">
+    <Number>213</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sleep Talk">
+    <Number>214</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Heal Bell">
+    <Number>215</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Return">
+    <Number>216</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Present">
+    <Number>217</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Frustration">
+    <Number>218</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Safeguard">
+    <Number>219</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>25</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Pain Split">
+    <Number>220</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sacred Fire">
+    <Number>221</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Magnitude">
+    <Number>222</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="DynamicPunch">
+    <Number>223</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>50</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Megahorn">
+    <Number>224</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="DragonBreath">
+    <Number>225</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Baton Pass">
+    <Number>226</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Encore">
+    <Number>227</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Pursuit">
+    <Number>228</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Rapid Spin">
+    <Number>229</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>40</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sweet Scent">
+    <Number>230</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Iron Tail">
+    <Number>231</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>100</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Metal Claw">
+    <Number>232</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>35</PP>
+    <Power>50</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Vital Throw">
+    <Number>233</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Morning Sun">
+    <Number>234</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Synthesis">
+    <Number>235</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Moonlight">
+    <Number>236</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Hidden Power">
+    <Number>237</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Cross Chop">
+    <Number>238</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Twister">
+    <Number>239</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Rain Dance">
+    <Number>240</Number>
+    <Type>Water</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Sunny Day">
+    <Number>241</Number>
+    <Type>Fire</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Crunch">
+    <Number>242</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Mirror Coat">
+    <Number>243</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Psych Up">
+    <Number>244</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="ExtremeSpeed">
+    <Number>245</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="AncientPower">
+    <Number>246</Number>
+    <Type>Rock</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Shadow Ball">
+    <Number>247</Number>
+    <Type>Ghost</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Future Sight">
+    <Number>248</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Rock Smash">
+    <Number>249</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Whirlpool">
+    <Number>250</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>35</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Beat Up">
+    <Number>251</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>II</Gen>
+  </Move>
+  <Move MoveName="Fake Out">
+    <Number>252</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Uproar">
+    <Number>253</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Stockpile">
+    <Number>254</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Spit Up">
+    <Number>255</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Swallow">
+    <Number>256</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Heat Wave">
+    <Number>257</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Hail">
+    <Number>258</Number>
+    <Type>Ice</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Torment">
+    <Number>259</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Flatter">
+    <Number>260</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Will-O-Wisp">
+    <Number>261</Number>
+    <Type>Fire</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Memento">
+    <Number>262</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Facade">
+    <Number>263</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Focus Punch">
+    <Number>264</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>150</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="SmellingSalt">
+    <Number>265</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Follow Me">
+    <Number>266</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Nature Power">
+    <Number>267</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Charge">
+    <Number>268</Number>
+    <Type>Electric</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Taunt">
+    <Number>269</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Helping Hand">
+    <Number>270</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Trick">
+    <Number>271</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Role Play">
+    <Number>272</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Wish">
+    <Number>273</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Assist">
+    <Number>274</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Ingrain">
+    <Number>275</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Superpower">
+    <Number>276</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Magic Coat">
+    <Number>277</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Recycle">
+    <Number>278</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Revenge">
+    <Number>279</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Brick Break">
+    <Number>280</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Yawn">
+    <Number>281</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Knock Off">
+    <Number>282</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Endeavor">
+    <Number>283</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Eruption">
+    <Number>284</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Skill Swap">
+    <Number>285</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Imprison">
+    <Number>286</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Refresh">
+    <Number>287</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Grudge">
+    <Number>288</Number>
+    <Type>Ghost</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Snatch">
+    <Number>289</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Secret Power">
+    <Number>290</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Dive">
+    <Number>291</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Arm Thrust">
+    <Number>292</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>15</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Camouflage">
+    <Number>293</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Tail Glow">
+    <Number>294</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Luster Purge">
+    <Number>295</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Mist Ball">
+    <Number>296</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="FeatherDance">
+    <Number>297</Number>
+    <Type>Flying</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Teeter Dance">
+    <Number>298</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Blaze Kick">
+    <Number>299</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>85</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Mud Sport">
+    <Number>300</Number>
+    <Type>Ground</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Ice Ball">
+    <Number>301</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>30</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Needle Arm">
+    <Number>302</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Slack Off">
+    <Number>303</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Hyper Voice">
+    <Number>304</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Poison Fang">
+    <Number>305</Number>
+    <Type>Poison</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Crush Claw">
+    <Number>306</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Blast Burn">
+    <Number>307</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Hydro Cannon">
+    <Number>308</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Meteor Mash">
+    <Number>309</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Astonish">
+    <Number>310</Number>
+    <Type>Ghost</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>30</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Weather Ball">
+    <Number>311</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Aromatherapy">
+    <Number>312</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Fake Tears">
+    <Number>313</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Air Cutter">
+    <Number>314</Number>
+    <Type>Flying</Type>
+    <Category>Special move</Category>
+    <PP>25</PP>
+    <Power>55</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Overheat">
+    <Number>315</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Odor Sleuth">
+    <Number>316</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Rock Tomb">
+    <Number>317</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Silver Wind">
+    <Number>318</Number>
+    <Type>Bug</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Metal Sound">
+    <Number>319</Number>
+    <Type>Steel</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="GrassWhistle">
+    <Number>320</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>55</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Tickle">
+    <Number>321</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Cosmic Power">
+    <Number>322</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Water Spout">
+    <Number>323</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Signal Beam">
+    <Number>324</Number>
+    <Type>Bug</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Shadow Punch">
+    <Number>325</Number>
+    <Type>Ghost</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Extrasensory">
+    <Number>326</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>30</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Sky Uppercut">
+    <Number>327</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>85</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Sand Tomb">
+    <Number>328</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>35</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Sheer Cold">
+    <Number>329</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>K/O</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Muddy Water">
+    <Number>330</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>95</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Bullet Seed">
+    <Number>331</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>25</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Aerial Ace">
+    <Number>332</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Icicle Spear">
+    <Number>333</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>25</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Iron Defense">
+    <Number>334</Number>
+    <Type>Steel</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Block">
+    <Number>335</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Howl">
+    <Number>336</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Dragon Claw">
+    <Number>337</Number>
+    <Type>Dragon</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Frenzy Plant">
+    <Number>338</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Bulk Up">
+    <Number>339</Number>
+    <Type>Fighting</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Bounce">
+    <Number>340</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>85</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Mud Shot">
+    <Number>341</Number>
+    <Type>Ground</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>55</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Poison Tail">
+    <Number>342</Number>
+    <Type>Poison</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Covet">
+    <Number>343</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>40</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Volt Tackle">
+    <Number>344</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Magical Leaf">
+    <Number>345</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Water Sport">
+    <Number>346</Number>
+    <Type>Water</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Calm Mind">
+    <Number>347</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Leaf Blade">
+    <Number>348</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Dragon Dance">
+    <Number>349</Number>
+    <Type>Dragon</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Rock Blast">
+    <Number>350</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>25</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Shock Wave">
+    <Number>351</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Water Pulse">
+    <Number>352</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Doom Desire">
+    <Number>353</Number>
+    <Type>Steel</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Psycho Boost">
+    <Number>354</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>III</Gen>
+  </Move>
+  <Move MoveName="Roost">
+    <Number>355</Number>
+    <Type>Flying</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Gravity">
+    <Number>356</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Miracle Eye">
+    <Number>357</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>40</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Wake-Up Slap">
+    <Number>358</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Hammer Arm">
+    <Number>359</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Gyro Ball">
+    <Number>360</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Healing Wish">
+    <Number>361</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Brine">
+    <Number>362</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Natural Gift">
+    <Number>363</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Feint">
+    <Number>364</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>30</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Pluck">
+    <Number>365</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Tailwind">
+    <Number>366</Number>
+    <Type>Flying</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Acupressure">
+    <Number>367</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Metal Burst">
+    <Number>368</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="U-turn">
+    <Number>369</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Close Combat">
+    <Number>370</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Payback">
+    <Number>371</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Assurance">
+    <Number>372</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Embargo">
+    <Number>373</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Fling">
+    <Number>374</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Psycho Shift">
+    <Number>375</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Trump Card">
+    <Number>376</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Heal Block">
+    <Number>377</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Wring Out">
+    <Number>378</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Power Trick">
+    <Number>379</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Gastro Acid">
+    <Number>380</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Lucky Chant">
+    <Number>381</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Me First">
+    <Number>382</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Copycat">
+    <Number>383</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>Varies</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Power Swap">
+    <Number>384</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Guard Swap">
+    <Number>385</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Punishment">
+    <Number>386</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Last Resort">
+    <Number>387</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Worry Seed">
+    <Number>388</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Sucker Punch">
+    <Number>389</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Toxic Spikes">
+    <Number>390</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Heart Swap">
+    <Number>391</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Aqua Ring">
+    <Number>392</Number>
+    <Type>Water</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Magnet Rise">
+    <Number>393</Number>
+    <Type>Electric</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Flare Blitz">
+    <Number>394</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Force Palm">
+    <Number>395</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Aura Sphere">
+    <Number>396</Number>
+    <Type>Fighting</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>90</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Rock Polish">
+    <Number>397</Number>
+    <Type>Rock</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Poison Jab">
+    <Number>398</Number>
+    <Type>Poison</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Dark Pulse">
+    <Number>399</Number>
+    <Type>Dark</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Night Slash">
+    <Number>400</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Aqua Tail">
+    <Number>401</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Seed Bomb">
+    <Number>402</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Air Slash">
+    <Number>403</Number>
+    <Type>Flying</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>75</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="X-Scissor">
+    <Number>404</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Bug Buzz">
+    <Number>405</Number>
+    <Type>Bug</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Dragon Pulse">
+    <Number>406</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Dragon Rush">
+    <Number>407</Number>
+    <Type>Dragon</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Power Gem">
+    <Number>408</Number>
+    <Type>Rock</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Drain Punch">
+    <Number>409</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Vacuum Wave">
+    <Number>410</Number>
+    <Type>Fighting</Type>
+    <Category>Special move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Focus Blast">
+    <Number>411</Number>
+    <Type>Fighting</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>70</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Energy Ball">
+    <Number>412</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Brave Bird">
+    <Number>413</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Earth Power">
+    <Number>414</Number>
+    <Type>Ground</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Switcheroo">
+    <Number>415</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Giga Impact">
+    <Number>416</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Nasty Plot">
+    <Number>417</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Bullet Punch">
+    <Number>418</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Avalanche">
+    <Number>419</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Ice Shard">
+    <Number>420</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Shadow Claw">
+    <Number>421</Number>
+    <Type>Ghost</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Thunder Fang">
+    <Number>422</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>65</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Ice Fang">
+    <Number>423</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>65</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Fire Fang">
+    <Number>424</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>65</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Shadow Sneak">
+    <Number>425</Number>
+    <Type>Ghost</Type>
+    <Category>Physical move</Category>
+    <PP>30</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Mud Bomb">
+    <Number>426</Number>
+    <Type>Ground</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Psycho Cut">
+    <Number>427</Number>
+    <Type>Psychic</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Zen Headbutt">
+    <Number>428</Number>
+    <Type>Psychic</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Mirror Shot">
+    <Number>429</Number>
+    <Type>Steel</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Flash Cannon">
+    <Number>430</Number>
+    <Type>Steel</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Rock Climb">
+    <Number>431</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>90</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Defog">
+    <Number>432</Number>
+    <Type>Flying</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Trick Room">
+    <Number>433</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>5</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Draco Meteor">
+    <Number>434</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Discharge">
+    <Number>435</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Lava Plume">
+    <Number>436</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Leaf Storm">
+    <Number>437</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Power Whip">
+    <Number>438</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Rock Wrecker">
+    <Number>439</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Cross Poison">
+    <Number>440</Number>
+    <Type>Poison</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Gunk Shot">
+    <Number>441</Number>
+    <Type>Poison</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>70</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Iron Head">
+    <Number>442</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Magnet Bomb">
+    <Number>443</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Stone Edge">
+    <Number>444</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Captivate">
+    <Number>445</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Stealth Rock">
+    <Number>446</Number>
+    <Type>Rock</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Grass Knot">
+    <Number>447</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Chatter">
+    <Number>448</Number>
+    <Type>Flying</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Judgment">
+    <Number>449</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Bug Bite">
+    <Number>450</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Charge Beam">
+    <Number>451</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Wood Hammer">
+    <Number>452</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Aqua Jet">
+    <Number>453</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Attack Order">
+    <Number>454</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Defend Order">
+    <Number>455</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Heal Order">
+    <Number>456</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Head Smash">
+    <Number>457</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Double Hit">
+    <Number>458</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>35</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Roar of Time">
+    <Number>459</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>150</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Spacial Rend">
+    <Number>460</Number>
+    <Type>Dragon</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Lunar Dance">
+    <Number>461</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Crush Grip">
+    <Number>462</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Magma Storm">
+    <Number>463</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>75</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Dark Void">
+    <Number>464</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>80</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Seed Flare">
+    <Number>465</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Ominous Wind">
+    <Number>466</Number>
+    <Type>Ghost</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Shadow Force">
+    <Number>467</Number>
+    <Type>Ghost</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>IV</Gen>
+  </Move>
+  <Move MoveName="Hone Claws">
+    <Number>468</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Wide Guard">
+    <Number>469</Number>
+    <Type>Rock</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Guard Split">
+    <Number>470</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Power Split">
+    <Number>471</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Wonder Room">
+    <Number>472</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Psyshock">
+    <Number>473</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Venoshock">
+    <Number>474</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Autotomize">
+    <Number>475</Number>
+    <Type>Steel</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Rage Powder">
+    <Number>476</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Telekinesis">
+    <Number>477</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Magic Room">
+    <Number>478</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Smack Down">
+    <Number>479</Number>
+    <Type>Rock</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Storm Throw">
+    <Number>480</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Flame Burst">
+    <Number>481</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Sludge Wave">
+    <Number>482</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>95</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Quiver Dance">
+    <Number>483</Number>
+    <Type>Bug</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Heavy Slam">
+    <Number>484</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Synchronoise">
+    <Number>485</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Electro Ball">
+    <Number>486</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Soak">
+    <Number>487</Number>
+    <Type>Water</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Flame Charge">
+    <Number>488</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Coil">
+    <Number>489</Number>
+    <Type>Poison</Type>
+    <Category>Status move</Category>
+    <PP>20</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Low Sweep">
+    <Number>490</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Acid Spray">
+    <Number>491</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Foul Play">
+    <Number>492</Number>
+    <Type>Dark</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>95</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Simple Beam">
+    <Number>493</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Entrainment">
+    <Number>494</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="After You">
+    <Number>495</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Round">
+    <Number>496</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Echoed Voice">
+    <Number>497</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>40</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Chip Away">
+    <Number>498</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Clear Smog">
+    <Number>499</Number>
+    <Type>Poison</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>50</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Stored Power">
+    <Number>500</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>20</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Quick Guard">
+    <Number>501</Number>
+    <Type>Fighting</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Ally Switch">
+    <Number>502</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Scald">
+    <Number>503</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Shell Smash">
+    <Number>504</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Heal Pulse">
+    <Number>505</Number>
+    <Type>Psychic</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Hex">
+    <Number>506</Number>
+    <Type>Ghost</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Sky Drop">
+    <Number>507</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Shift Gear">
+    <Number>508</Number>
+    <Type>Steel</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Circle Throw">
+    <Number>509</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Incinerate">
+    <Number>510</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>30</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Quash">
+    <Number>511</Number>
+    <Type>Dark</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Acrobatics">
+    <Number>512</Number>
+    <Type>Flying</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>55</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Reflect Type">
+    <Number>513</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Retaliate">
+    <Number>514</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Final Gambit">
+    <Number>515</Number>
+    <Type>Fighting</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Bestow">
+    <Number>516</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>15</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Inferno">
+    <Number>517</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>50</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Water Pledge">
+    <Number>518</Number>
+    <Type>Water</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Fire Pledge">
+    <Number>519</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Grass Pledge">
+    <Number>520</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>50</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Volt Switch">
+    <Number>521</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>70</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Struggle Bug">
+    <Number>522</Number>
+    <Type>Bug</Type>
+    <Category>Special move</Category>
+    <PP>20</PP>
+    <Power>30</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Bulldoze">
+    <Number>523</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Frost Breath">
+    <Number>524</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>40</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Dragon Tail">
+    <Number>525</Number>
+    <Type>Dragon</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>60</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Work Up">
+    <Number>526</Number>
+    <Type>Normal</Type>
+    <Category>Status move</Category>
+    <PP>30</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Electroweb">
+    <Number>527</Number>
+    <Type>Electric</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>55</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Wild Charge">
+    <Number>528</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Drill Run">
+    <Number>529</Number>
+    <Type>Ground</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Dual Chop">
+    <Number>530</Number>
+    <Type>Dragon</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>40</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Heart Stamp">
+    <Number>531</Number>
+    <Type>Psychic</Type>
+    <Category>Physical move</Category>
+    <PP>25</PP>
+    <Power>60</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Horn Leech">
+    <Number>532</Number>
+    <Type>Grass</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Sacred Sword">
+    <Number>533</Number>
+    <Type>Fighting</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>90</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Razor Shell">
+    <Number>534</Number>
+    <Type>Water</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Heat Crash">
+    <Number>535</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>Varies</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Leaf Tornado">
+    <Number>536</Number>
+    <Type>Grass</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Steamroller">
+    <Number>537</Number>
+    <Type>Bug</Type>
+    <Category>Physical move</Category>
+    <PP>20</PP>
+    <Power>65</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Cotton Guard">
+    <Number>538</Number>
+    <Type>Grass</Type>
+    <Category>Status move</Category>
+    <PP>10</PP>
+    <Power>None</Power>
+    <Accuracy>0</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Night Daze">
+    <Number>539</Number>
+    <Type>Dark</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>85</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Psystrike">
+    <Number>540</Number>
+    <Type>Psychic</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Tail Slap">
+    <Number>541</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>25</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Hurricane">
+    <Number>542</Number>
+    <Type>Flying</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>120</Power>
+    <Accuracy>70</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Head Charge">
+    <Number>543</Number>
+    <Type>Normal</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>120</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Gear Grind">
+    <Number>544</Number>
+    <Type>Steel</Type>
+    <Category>Physical move</Category>
+    <PP>15</PP>
+    <Power>50</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Searing Shot">
+    <Number>545</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Techno Blast">
+    <Number>546</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>85</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Relic Song">
+    <Number>547</Number>
+    <Type>Normal</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>75</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Secret Sword">
+    <Number>548</Number>
+    <Type>Fighting</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>85</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Glaciate">
+    <Number>549</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>65</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Bolt Strike">
+    <Number>550</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>130</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Blue Flare">
+    <Number>551</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>130</Power>
+    <Accuracy>85</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Fiery Dance">
+    <Number>552</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>10</PP>
+    <Power>80</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Freeze Shock">
+    <Number>553</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Ice Burn">
+    <Number>554</Number>
+    <Type>Ice</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>140</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Snarl">
+    <Number>555</Number>
+    <Type>Dark</Type>
+    <Category>Special move</Category>
+    <PP>15</PP>
+    <Power>55</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Icicle Crash">
+    <Number>556</Number>
+    <Type>Ice</Type>
+    <Category>Physical move</Category>
+    <PP>10</PP>
+    <Power>85</Power>
+    <Accuracy>90</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="V-create">
+    <Number>557</Number>
+    <Type>Fire</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>180</Power>
+    <Accuracy>95</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Fusion Flare">
+    <Number>558</Number>
+    <Type>Fire</Type>
+    <Category>Special move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+  <Move MoveName="Fusion Bolt">
+    <Number>559</Number>
+    <Type>Electric</Type>
+    <Category>Physical move</Category>
+    <PP>5</PP>
+    <Power>100</Power>
+    <Accuracy>100</Accuracy>
+    <Gen>V</Gen>
+  </Move>
+</MoveListing>
