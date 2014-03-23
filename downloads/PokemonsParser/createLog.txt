@@ -1,0 +1,46 @@
+mysql> \. createTable.sql
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> select table_name from information_schema.tables where table_schema = 'jdonais-pokemonproject';
++------------+
+| table_name |
++------------+
+| Abilities  |
+| Ability    |
+| Evolutions |
+| MoveSet    |
+| Moves      |
+| Nature     |
+| Natures    |
+| Pokemon    |
+| Strengths  |
+| TMs        |
+| Type_      |
+| Types      |
+| Weaknesses |
++------------+
+13 rows in set (0.00 sec)

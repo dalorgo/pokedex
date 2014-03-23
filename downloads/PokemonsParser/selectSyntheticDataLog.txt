@@ -6,53 +6,6 @@ Database changed
 mysql> drop table Abilities, Ability, Evolutions, MoveSet, Moves, Nature, Natures, Pokemon, TMs, Type_, Types, Strengths, Weaknesses;
 Query OK, 0 rows affected (1.40 sec)
 
-mysql> \. sql_0_dbCreation.sql
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.02 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.02 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.03 sec)
-
-Query OK, 0 rows affected (0.04 sec)
-
-mysql> select table_name from information_schema.tables where table_schema = 'jdonais-pokemonproject';
-+------------+
-| table_name |
-+------------+
-| Abilities  |
-| Ability    |
-| Evolutions |
-| MoveSet    |
-| Moves      |
-| Nature     |
-| Natures    |
-| Pokemon    |
-| Strengths  |
-| TMs        |
-| Type_      |
-| Types      |
-| Weaknesses |
-+------------+
-13 rows in set (0.00 sec)
-
 mysql> \. insertSyntheticData.sql
 Query OK, 1 row affected (0.02 sec)
 
