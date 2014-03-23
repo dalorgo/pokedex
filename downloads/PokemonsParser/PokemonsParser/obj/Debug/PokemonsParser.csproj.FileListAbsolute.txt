@@ -16,3 +16,9 @@ C:\Users\Jordan\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser
 C:\Users\Jordan\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\bin\Debug\PokemonsParser.exe
 C:\Users\Jordan\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\bin\Debug\PokemonsParser.pdb
 C:\Users\Jordan\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\obj\Debug\PokemonsParser.csprojResolveAssemblyReference.cache
+C:\Users\Daisy\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\bin\Debug\PokemonsParser.exe.config
+C:\Users\Daisy\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\obj\Debug\PokemonsParser.exe
+C:\Users\Daisy\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\obj\Debug\PokemonsParser.pdb
+C:\Users\Daisy\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\bin\Debug\PokemonsParser.exe
+C:\Users\Daisy\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\bin\Debug\PokemonsParser.pdb
+C:\Users\Daisy\Documents\GitHub\pokedex\downloads\PokemonsParser\PokemonsParser\obj\Debug\PokemonsParser.csprojResolveAssemblyReference.cache

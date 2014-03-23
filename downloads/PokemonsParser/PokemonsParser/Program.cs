@@ -27,6 +27,7 @@ namespace PokemonsParser
             hookup_tms();
             hookup_moves();
             hookup_evolutions();
+            hookup_natures();
         }
 
         static public Dictionary<string, string> pokemon;
@@ -128,7 +129,7 @@ namespace PokemonsParser
         }
 
         /// <summary>
-        /// Writes the Dictionary object given to the database. THIS FUNCTION IS NOT USED!!!
+        /// Writes the Dictionary object given to the database.
         /// </summary>
         static void writeToDB(Dictionary<string, string> entry)
         {
@@ -189,6 +190,26 @@ namespace PokemonsParser
 
             return Convert.ToInt32(tVal);
         }
+        static public void hookup_natures()
+        {
+            string sqlStat = "";
+
+            foreach (KeyValuePair<string, string> kvp in pokemon)
+            {
+                foreach (KeyValuePair<string, string> nature in natures)
+                {
+                    sqlStat+= "INSERT INTO Nature (PokemonUID, NatureUID) VALUES (";
+                    sqlStat += cleanString(kvp.Value) + ",";
+                    sqlStat += cleanString(nature.Value);
+                    sqlStat += ");\n";
+                }
+            }
+            using (StreamWriter output = new StreamWriter(".\\sql_nature_link.sql", true))
+            {
+                output.Write(sqlStat);
+            }
+        }
+  
 
         static public void hookup_weaknesses()
         {
