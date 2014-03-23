@@ -10,4 +10,4 @@ SELECT * FROM Strengths;
 SELECT * FROM TMs;
 SELECT * FROM Type_;
 SELECT * FROM Types;
-SELECT * FROM Weakness;
+SELECT * FROM Weaknesses;

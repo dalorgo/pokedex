@@ -1,16 +1,3 @@
-/*
-1. use jdonais-pokemonproject
-
-2. select table_name from information_schema.tables where table_schema = 'jdonais-pokemonproject';
-
-3. drop table Abilities, Ability, Evolutions, MoveSet, Moves, Nature, Natures, Pokemon, TMs, Type_, Types, Strengths, Weaknesses;
-
-4. \T logFile.txt;
-
-5. \. name.sql
-
-6. When running project delete all sql files except sql_0_dbCreation.sql
-*/
 -- abilities
 INSERT INTO Abilities (GUID, Name, Effect) VALUES('d89ca940-5961-4c70-8d3b-cdc3ffc18250','Forewarn','Normal-type moves become Flying-type moves.');
 INSERT INTO Abilities (GUID, Name, Effect) VALUES('1b1454fe-ddd7-4ee7-b345-111054d328ee','Adaptability','Powers up moves of the same type.');
@@ -143,4 +130,14 @@ INSERT INTO Natures (GUID, Name, Effect) VALUES('dd0cb250-f939-4a33-ad41-06eab94
 INSERT INTO Natures (GUID, Name, Effect) VALUES('175fa028-094f-4556-814d-0926558cab70','Relaxed','Increased Defense, Decreased Speed');
 INSERT INTO Natures (GUID, Name, Effect) VALUES('932d9855-f743-42c1-9f07-490db76d5b7c','Impish','Increased Defense, Decreased Sp. Attack');
 INSERT INTO Natures (GUID, Name, Effect) VALUES('3ba46bd8-46d8-496a-be79-0b3ef213e0c7','Lax','Increased Defense, Decreased Sp. Defense');
--- nature
+-- nature link
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','83528108-8d14-4bf2-8e2d-ad6a2553e544');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','4f866d15-9dc1-45d2-a48d-12573c65b73a');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','e6dc820f-0b5f-4117-ac44-ca4f85b8c495');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','965b151f-ec22-4104-9c8b-801f543abfe3');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','31c85ca6-4eb5-414a-a31b-08cccb205b39');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','ecd3f4d5-2b7c-4be9-bdec-bbd979f95125');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','2fd0ce95-f390-4e05-a846-6ef6bd9808ea');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','004a45eb-5ccd-4787-8e51-ef788ea45d41');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','4559866a-7493-45ed-9cc9-e64f9d751d23');
+INSERT INTO Nature (PokemonUID, NatureUID) VALUES ('72127d71-b701-497e-91bb-0c38beb421e2','79ccc132-fd56-414a-8f3e-4bc55ee441d7');

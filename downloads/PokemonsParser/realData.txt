@@ -1,0 +1,206 @@
++--------------------------------------+--------------+------------------------------------------------------+--------------+
+| GUID                                 | Name         | Effect                                               | BattleEffect |
++--------------------------------------+--------------+------------------------------------------------------+--------------+
+| 2642bf6d-4149-42c1-9d8f-41c3c9fa1682 | Clear Body   | Prevents the Pokémon’s stats from being lowered.    | NULL         |
+| 2e3cf8cc-9721-42bf-bb81-895d2088c32f | Big Pecks    | Protects the Pokémon from Defense-lowering attacks.  | NULL         |
+| 412810dc-6431-4026-8a9c-bab3fc7929f9 | Blaze        | Powers up Fire-type moves in a pinch.                | NULL         |
+| 51a6375f-60e9-450a-8e0b-564e19f90270 | Cacophony    | Avoids sound-based moves.                            | NULL         |
+| 5a1e2521-5fe5-4886-b090-053b30cb4fb3 | Cloud Nine   | Eliminates the effects of weather.                   | NULL         |
+| b9f31748-a4d2-45fa-a9e7-34c98168307a | Bulletproof  | Protects the Pokémon from some ball and bomb moves.  | NULL         |
+| c247c1a3-eaae-4619-b70f-25d5941044e1 | Chlorophyll  | Boosts the Pokémon’s Speed in sunshine.             | NULL         |
+| d31d598c-a27f-454d-aa0e-6fbfce45cdce | Cheek Pouch  | Restores HP as well when the Pokémon eats a Berry.   | NULL         |
+| d3af410b-bb84-4eb5-b265-a9de18602a29 | Bad Dreams   | Reduces a sleeping foe’s HP.                        | NULL         |
+| ff88d686-5b5c-4dfd-a6bf-1bdad19c52d2 | Battle Armor | The Pokémon is protected against critical hits.      | NULL         |
++--------------------------------------+--------------+------------------------------------------------------+--------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+
+| PokemonUID                           | AbilityUID                           |
++--------------------------------------+--------------------------------------+
+| 089d5281-8759-492a-b20f-c823bdc89cac | 26b10845-3c4c-4620-9b2d-edbd5db9b535 |
+| 089d5281-8759-492a-b20f-c823bdc89cac | 8b8b3c1c-6415-40f5-bbd4-0e72a9ffedca |
+| 4adb5526-56bb-4e56-b8c7-3ae40c1eea93 | 26b10845-3c4c-4620-9b2d-edbd5db9b535 |
+| 4adb5526-56bb-4e56-b8c7-3ae40c1eea93 | 8b8b3c1c-6415-40f5-bbd4-0e72a9ffedca |
+| 698ab4e8-c9f7-458f-bb65-2e66565fa44a | 412810dc-6431-4026-8a9c-bab3fc7929f9 |
+| 698ab4e8-c9f7-458f-bb65-2e66565fa44a | f90f97a3-bf46-4c74-8a4f-8575435bfbf5 |
+| 9ace22b8-ebeb-4d4c-b88a-e981a9904376 | 2ad696cd-c705-4568-ac9e-eab9b6399c33 |
+| 9ace22b8-ebeb-4d4c-b88a-e981a9904376 | bc396a66-d92d-4c86-af18-1b2ec0858266 |
+| b9bde0c3-f631-48e1-9800-4df98fc7687a | 26b10845-3c4c-4620-9b2d-edbd5db9b535 |
+| b9bde0c3-f631-48e1-9800-4df98fc7687a | 8b8b3c1c-6415-40f5-bbd4-0e72a9ffedca |
++--------------------------------------+--------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+--------+----------+
+| PokemonUIDFrom                       | PokemonUIDTO                         | Level_ | Method   |
++--------------------------------------+--------------------------------------+--------+----------+
+| 0ca519ff-cac7-4a31-904a-8c7c6e38a443 | 6d717e85-135e-437f-abcd-4ee3c58c9082 |     36 | Leveling |
+| 0d7cdfb0-582a-41c7-99dc-39f9b4926389 | 0ca519ff-cac7-4a31-904a-8c7c6e38a443 |     18 | Leveling |
+| 0d7cdfb0-582a-41c7-99dc-39f9b4926389 | 6d717e85-135e-437f-abcd-4ee3c58c9082 |     36 | Leveling |
+| 519f3537-986a-4191-b1fd-96f5537cab16 | 6673b176-1d6f-4a75-9d75-b6583f5dc4fe |     10 | Leveling |
+| 720d5a06-8c7b-4981-a03f-3661f3ff65bf | 519f3537-986a-4191-b1fd-96f5537cab16 |      7 | Leveling |
+| 720d5a06-8c7b-4981-a03f-3661f3ff65bf | 6673b176-1d6f-4a75-9d75-b6583f5dc4fe |     10 | Leveling |
+| 89fd2a13-d3cf-4c65-bdc1-21ef68a19481 | 5714c2aa-0514-4a79-853d-342eb3824015 |     10 | Leveling |
+| 9ace22b8-ebeb-4d4c-b88a-e981a9904376 | 5714c2aa-0514-4a79-853d-342eb3824015 |     10 | Leveling |
+| eeef27ea-bed1-4c1a-9bc8-f680250b241f | df80708c-dd75-4869-aa0d-20019d4d02d3 |     20 | Leveling |
+| f9c9628b-14de-49eb-90d6-85b754ff546f | 46d033b5-ca0c-496c-8f73-d8b6d0025094 |     20 | Leveling |
++--------------------------------------+--------------------------------------+--------+----------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+--------+
+| PokemonUID                           | MoveUID                              | Level_ |
++--------------------------------------+--------------------------------------+--------+
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | 19fa3cc1-830b-48db-8895-91fed1664582 |      0 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | 4f2235e4-843e-4077-b40f-ac8b77e98178 |      0 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | 5ff82e4c-bb08-4ac7-a6b6-b2a94d7486c5 |     15 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | 6571f297-3719-4cbb-b329-dcb188862514 |     39 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | 8d62d9fa-a546-48d7-a5bb-dacc988167f8 |     31 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | b20e8bff-7ada-4334-8cb7-4d701bf11d2b |      0 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | c5001ae5-23c8-4115-8c76-ca24e7f7650e |     23 |
+| 539fb288-c7e3-4b38-b5e1-b7550a0589fc | d227f9d3-ec48-476c-a1b4-1f23cc0e9d79 |      0 |
++--------------------------------------+--------------------------------------+--------+
+8 rows in set (0.00 sec)
+
++--------------------------------------+--------------+--------+---------------+--------+----------+------+
+| GUID                                 | Name         | Type_  | Kind          | Power_ | Accuracy | PP   |
++--------------------------------------+--------------+--------+---------------+--------+----------+------+
+| 00e4fa89-ee8e-4445-b617-626dbd824101 | Razor Wind   | Normal | Special move  |     80 |      100 |   10 |
+| 1da54335-d4d5-43fd-af4b-8a6a2e6fabed | Fly          | Flying | Physical move |     90 |       95 |   15 |
+| 49a1e6ef-6fc5-471c-be6d-2158c59b389a | Bind         | Normal | Physical move |     15 |       85 |   20 |
+| 5cf7a242-c66f-40c7-bf84-76072408ca63 | Swords Dance | Normal | Status move   |      0 |        0 |   30 |
+| 5d4df51e-ee2f-4739-8e22-4ff13252ee96 | ViceGrip     | Normal | Physical move |     55 |      100 |   30 |
+| 7f2d04ba-43cb-40ae-9dd1-1d2a4ee73179 | Gust         | Flying | Special move  |     40 |      100 |   35 |
+| 7fbb7b0c-8680-436b-a64d-2f39adbf57ad | Cut          | Normal | Physical move |     50 |       95 |   30 |
+| b13363ea-1680-48de-b3b5-0ca0df7ad35c | Whirlwind    | Normal | Status move   |      0 |      100 |   20 |
+| c5f02d6f-40ab-4791-9481-063877a2fadd | Wing Attack  | Flying | Physical move |     60 |      100 |   35 |
+| c960b7f3-e423-4467-9229-ef0870d358f4 | Guillotine   | Normal | Physical move |      0 |       30 |    5 |
++--------------------------------------+--------------+--------+---------------+--------+----------+------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+
+| PokemonUID                           | NatureUID                            |
++--------------------------------------+--------------------------------------+
+| 72127d71-b701-497e-91bb-0c38beb421e2 | 00e1d5e8-8c42-4825-8f7d-6c1760852ada |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | 1d14c3fc-00a6-4140-90ea-fe2aac5e5299 |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | 2ecf249a-5f4a-481d-9c1a-4bb2b271301d |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | 60e4fc4c-99eb-4232-a0e9-1f5825116c53 |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | 87b135e9-a69f-4e0f-8108-1590781199a3 |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | 8e73a691-ff92-425f-b21d-ba87039c0d40 |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | a0b0a6cf-8da3-4739-bd66-3cf60e7842ac |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | e08c6910-2407-4583-b942-09959be333a4 |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | e68edebe-aa8c-43a8-aa47-c6d343d89dd1 |
+| 72127d71-b701-497e-91bb-0c38beb421e2 | f808bebd-97f5-46cf-9e7b-5d08ee256dc0 |
++--------------------------------------+--------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+---------+---------------------------------------------+
+| GUID                                 | Name    | Effect                                      |
++--------------------------------------+---------+---------------------------------------------+
+| 00e1d5e8-8c42-4825-8f7d-6c1760852ada | Serious | None                                        |
+| 1d14c3fc-00a6-4140-90ea-fe2aac5e5299 | Hasty   | Increased Speed, Decreased Defense          |
+| 2ecf249a-5f4a-481d-9c1a-4bb2b271301d | Naive   | Increased Speed, Decreased Sp. Defense      |
+| 60e4fc4c-99eb-4232-a0e9-1f5825116c53 | Mild    | Increased Sp. Attack, Decreased Defense     |
+| 87b135e9-a69f-4e0f-8108-1590781199a3 | Rash    | Increased Sp. Attack, Decreased Sp. Defense |
+| 8e73a691-ff92-425f-b21d-ba87039c0d40 | Quiet   | Increased Sp. Attack, Decreased Speed       |
+| a0b0a6cf-8da3-4739-bd66-3cf60e7842ac | Jolly   | Increased Speed, Decreased Sp. Attack       |
+| e08c6910-2407-4583-b942-09959be333a4 | Timid   | Increased Speed, Decreased Attack           |
+| e68edebe-aa8c-43a8-aa47-c6d343d89dd1 | Bashful | None                                        |
+| f808bebd-97f5-46cf-9e7b-5d08ee256dc0 | Modest  | Increased Sp. Attack, Decreased Attack      |
++--------------------------------------+---------+---------------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+------------+------------+------+--------+---------+-------+---------+--------+------------+------------+-------------------------------------------------------------------------------------------------------+
+| GUID                                 | NationalID | Name       | HP   | Attack | Defense | Speed | Height  | Weight | SpecialDef | SpecialAtk | Description                                                                                           |
++--------------------------------------+------------+------------+------+--------+---------+-------+---------+--------+------------+------------+-------------------------------------------------------------------------------------------------------+
+| 0ca519ff-cac7-4a31-904a-8c7c6e38a443 |         17 | Pidgeotto  |   63 |     60 |      55 |    71 | 66.1lbs | 3'07"  |         50 |         50 | Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.          |
+| 0d7cdfb0-582a-41c7-99dc-39f9b4926389 |         16 | Pidgey     |   40 |     45 |      40 |    56 | 4.0lbs  | 1'00"  |         35 |         35 | A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.     |
+| 519f3537-986a-4191-b1fd-96f5537cab16 |         14 | Kakuna     |   45 |     25 |      50 |    35 | 22.0lbs | 2'00"  |         25 |         25 | Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.  |
+| 5714c2aa-0514-4a79-853d-342eb3824015 |         12 | Butterfree |   60 |     45 |      50 |    70 | 70.5lbs | 3'07"  |         80 |         80 | In battle, it flaps its wings at high speed, releasing highly toxic dust into the air.                |
+| 6673b176-1d6f-4a75-9d75-b6583f5dc4fe |         15 | Beedrill   |   65 |     80 |      40 |    75 | 65.0lbs | 3'03"  |         80 |         45 | Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.           |
+| 6d717e85-135e-437f-abcd-4ee3c58c9082 |         18 | Pidgeot    |   83 |     80 |      75 |    91 | 87.1lbs | 4'11"  |         70 |         70 | When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.   |
+| 720d5a06-8c7b-4981-a03f-3661f3ff65bf |         13 | Weedle     |   40 |     35 |      30 |    50 | 7.1lbs  | 1'00"  |         20 |         20 | Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.                  |
+| 89fd2a13-d3cf-4c65-bdc1-21ef68a19481 |         11 | Metapod    |   50 |     20 |      55 |    30 | 21.8lbs | 2'04"  |         25 |         25 | This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.      |
+| df80708c-dd75-4869-aa0d-20019d4d02d3 |         20 | Raticate   |   55 |     81 |      60 |    97 | 40.8lbs | 2'04"  |         70 |         50 | It uses its whiskers to maintain its balance and will slow down if they are cut off.                  |
+| eeef27ea-bed1-4c1a-9bc8-f680250b241f |         19 | Rattata    |   30 |     56 |      35 |    72 | 7.7lbs  | 1'00"  |         35 |         25 | Bites anything when it attacks. Small and very quick, it is a common sight in many places.            |
++--------------------------------------+------------+------------+------+--------+---------+-------+---------+--------+------------+------------+-------------------------------------------------------------------------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+
+| PokemonUIDStrong                     | PokemonUIDWeak                       |
++--------------------------------------+--------------------------------------+
+| 133bc59a-159d-4bc3-900e-edcc665f612f | 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 |
+| 133bc59a-159d-4bc3-900e-edcc665f612f | d7293244-de90-4e9b-83dd-163465d08e97 |
+| 174e7c23-9e0f-4e9a-b196-a64d9fe967ef | def23cd3-fb8d-477d-94cf-0701f41887ed |
+| 21e21b08-234e-464a-a35b-8fe0445a8c17 | 1cde5918-a1b2-4d8f-9875-c95fdcf73d11 |
+| 21e21b08-234e-464a-a35b-8fe0445a8c17 | 5bb8b959-e9ce-4b72-8876-c2f3dc967a35 |
+| 21e21b08-234e-464a-a35b-8fe0445a8c17 | bf433080-4526-4888-be53-25f2f5262bd5 |
+| 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 | 174e7c23-9e0f-4e9a-b196-a64d9fe967ef |
+| 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 | afc13127-bcc5-4f15-ab53-e10ef0066ce6 |
+| 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 | f08ffd92-b698-46f0-ae1b-05f0e801713b |
+| d7293244-de90-4e9b-83dd-163465d08e97 | 1cde5918-a1b2-4d8f-9875-c95fdcf73d11 |
++--------------------------------------+--------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+
+| PokemonUID                           | MoveUID                              |
++--------------------------------------+--------------------------------------+
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 0130b92c-32aa-4250-aa42-b4b96abaaa87 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 0da06716-e07a-430f-a11a-f4a4f0dfdd28 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 306bb2d7-91b2-4490-8c48-fa165b0e7dd3 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 65605a2a-3b9b-47d5-a7b5-4bb1ac68c2d1 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 895fd72a-bed9-4c7c-b68e-0f0ae23cfa15 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 8ee1d14d-d84d-4acb-90c6-3267435cc465 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | 9650976f-1f99-440e-9382-51a4e0109695 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | ec59e249-4a9a-4afa-9110-e2e6b34132e9 |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | f47effef-0881-41fd-bedd-c439c87cdaaf |
+| bac2c41c-aec3-4507-a38a-eea81709be1e | fbff93de-d4dd-4c08-9c40-44fa00681659 |
++--------------------------------------+--------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+--------------------------------------+
+| PokemonUID                           | TypeUID                              |
++--------------------------------------+--------------------------------------+
+| 089d5281-8759-492a-b20f-c823bdc89cac | 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 |
+| 4adb5526-56bb-4e56-b8c7-3ae40c1eea93 | 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 |
+| 519f3537-986a-4191-b1fd-96f5537cab16 | 21e21b08-234e-464a-a35b-8fe0445a8c17 |
+| 5714c2aa-0514-4a79-853d-342eb3824015 | 21e21b08-234e-464a-a35b-8fe0445a8c17 |
+| 5714c2aa-0514-4a79-853d-342eb3824015 | d7293244-de90-4e9b-83dd-163465d08e97 |
+| 720d5a06-8c7b-4981-a03f-3661f3ff65bf | 21e21b08-234e-464a-a35b-8fe0445a8c17 |
+| 720d5a06-8c7b-4981-a03f-3661f3ff65bf | def23cd3-fb8d-477d-94cf-0701f41887ed |
+| 89fd2a13-d3cf-4c65-bdc1-21ef68a19481 | 21e21b08-234e-464a-a35b-8fe0445a8c17 |
+| 9ace22b8-ebeb-4d4c-b88a-e981a9904376 | 21e21b08-234e-464a-a35b-8fe0445a8c17 |
+| b9bde0c3-f631-48e1-9800-4df98fc7687a | 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 |
++--------------------------------------+--------------------------------------+
+10 rows in set (0.00 sec)
+
++--------------------------------------+----------+
+| GUID                                 | Name     |
++--------------------------------------+----------+
+| 133bc59a-159d-4bc3-900e-edcc665f612f | Electric |
+| 174e7c23-9e0f-4e9a-b196-a64d9fe967ef | Ground   |
+| 46d6f2b5-b0b6-4d04-8a67-f954d8428c34 | Steel    |
+| 4eae9346-6dc1-4202-bacd-00cba54d920e | Ghost    |
+| 533ce504-328e-455d-a871-9df330963699 | Fighting |
+| 5bb8b959-e9ce-4b72-8876-c2f3dc967a35 | Psychic  |
+| bf433080-4526-4888-be53-25f2f5262bd5 | Dark     |
+| c597a3a7-dd9e-498c-9ea7-da865ca7dc6a | Dragon   |
+| c5d4120b-4873-4b5e-811c-da2b89c557d3 | Ice      |
+| f08ffd92-b698-46f0-ae1b-05f0e801713b | Rock     |
++--------------------------------------+----------+
+10 rows in set (0.01 sec)
+
++--------------------------------------+--------------------------------------+
+| PokemonUIDWeak                       | PokemonUIDStrong                     |
++--------------------------------------+--------------------------------------+
+| 133bc59a-159d-4bc3-900e-edcc665f612f | 174e7c23-9e0f-4e9a-b196-a64d9fe967ef |
+| 21e21b08-234e-464a-a35b-8fe0445a8c17 | afc13127-bcc5-4f15-ab53-e10ef0066ce6 |
+| 21e21b08-234e-464a-a35b-8fe0445a8c17 | d7293244-de90-4e9b-83dd-163465d08e97 |
+| 21e21b08-234e-464a-a35b-8fe0445a8c17 | f08ffd92-b698-46f0-ae1b-05f0e801713b |
+| 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 | 133bc59a-159d-4bc3-900e-edcc665f612f |
+| 6dcdf003-4c0e-4a6b-ba28-01968aaf2967 | 1cde5918-a1b2-4d8f-9875-c95fdcf73d11 |
+| 86cb3a84-0725-4107-abcb-8378c04523e8 | 533ce504-328e-455d-a871-9df330963699 |
+| d7293244-de90-4e9b-83dd-163465d08e97 | 133bc59a-159d-4bc3-900e-edcc665f612f |
+| d7293244-de90-4e9b-83dd-163465d08e97 | c5d4120b-4873-4b5e-811c-da2b89c557d3 |
+| d7293244-de90-4e9b-83dd-163465d08e97 | f08ffd92-b698-46f0-ae1b-05f0e801713b |
++--------------------------------------+--------------------------------------+
+10 rows in set (0.00 sec)
+
