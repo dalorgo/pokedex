@@ -190,6 +190,7 @@ namespace PokemonsParser
 
             return Convert.ToInt32(tVal);
         }
+
         static public void hookup_natures()
         {
             string sqlStat = "";
