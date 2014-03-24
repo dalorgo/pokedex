@@ -8,6 +8,7 @@ using System.IO;
 using System.Data.Sql;
 using System.Data.SqlClient;
 //using MySql.Data.MySqlClient;
+
 /**
  * PokemonParser Program
  * Takes xml data extracted from various related webpages using native xml-parsing objects 
@@ -16,9 +17,14 @@ using System.Data.SqlClient;
  * neccessary elements from a given xml document (in the same directory) and "hook" them 
  * together using dictionary objects. Once the objects are "hooked up" they are then 
  * written to a sql file which can be executed in a sql environment to generate meaningful
- * data for testing and observation. 
+ * data for testing and observation. Another function o this code that is not used is the
+ * function to connect to a specfic database and pipe these recordd commands in without
+ * the need for an intermediary file location. This function will be used later in the project.
+ * Through the use of XML and sql files, this program fill up a database with sufficient
+ * pokemon information.
  * 
  * */
+
 namespace PokemonsParser
 {
     class PokeParser
