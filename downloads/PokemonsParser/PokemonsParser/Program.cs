@@ -496,7 +496,7 @@ namespace PokemonsParser
             string sqlStat = "";
             bool isDone = false;
 
-			// Readign form xml file
+			// Reading from xml file
             using (XmlReader reader = XmlReader.Create(".\\pokemonListing.xml"))
             {
                 while (reader.Read())
