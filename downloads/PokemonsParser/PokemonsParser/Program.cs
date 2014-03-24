@@ -8,13 +8,24 @@ using System.IO;
 using System.Data.Sql;
 using System.Data.SqlClient;
 //using MySql.Data.MySqlClient;
-
+/**
+ * PokemonParser Program
+ * Takes xml data extracted from various related webpages using native xml-parsing objects 
+ * and transforms the data into relevant queries used to populate a given database with
+ * detailed pokemon information. Program is split up into separate functions that parse the
+ * neccessary elements from a given xml document (in the same directory) and "hook" them 
+ * together using dictionary objects. Once the objects are "hooked up" they are then 
+ * written to a sql file which can be executed in a sql environment to generate meaningful
+ * data for testing and observation. 
+ * 
+ * */
 namespace PokemonsParser
 {
     class PokeParser
     {
         static void Main(string[] args)
         {
+			//Set up initial pokemon dictionary
             pokemon = new Dictionary<string, string>();
             parse_moves();
             parse_natures();
@@ -30,12 +41,14 @@ namespace PokemonsParser
             hookup_natures();
         }
 
+		//Reference dictionary objects for different attribute container objects
         static public Dictionary<string, string> pokemon;
         static public Dictionary<string, string> types;
         static public Dictionary<string, string> abilities;
         static public Dictionary<string, string> natures;
         static public Dictionary<string, string> moves;
 
+		//Takes a string and switches it to an acronym
         static public string translateName(string val)
         {
             /*
@@ -93,14 +106,17 @@ namespace PokemonsParser
         /// </summary>
         static void writeToFilePokemon(Dictionary<string, string> entry)
         {
-            // Form the insert statement
+            //Form the insert statement
             string sqlStat = "INSERT INTO Pokemon(";
             List<string> attributes = new List<string>();
+
+			// Insert a key for every pokemon
             foreach (KeyValuePair<string, string> kvp in entry)
             {
                 attributes.Add(kvp.Key);
             }
 
+			// Forming Sql query to add the accumulated values
             sqlStat += "GUID,";
             sqlStat += string.Join(",", attributes.ToArray());
             sqlStat += ") VALUES(";
@@ -108,6 +124,8 @@ namespace PokemonsParser
             pokemon[entry["Name"]] = myGUID;
             sqlStat += "\'" + myGUID + "\'";
             sqlStat += ",";
+
+			// Populating ketvaluepair string with entries
             foreach (KeyValuePair<string, string> kvp in entry)
             {
                 if (isChar(kvp.Key))
@@ -122,6 +140,8 @@ namespace PokemonsParser
             }
             sqlStat = sqlStat.Remove(sqlStat.Length - 1);
             sqlStat += ");\n";
+
+			// Write output to file
             using (StreamWriter output = new StreamWriter(".\\sql_pokemon.sql", true))
             {
                 output.Write(sqlStat);
@@ -133,6 +153,7 @@ namespace PokemonsParser
         /// </summary>
         static void writeToDB(Dictionary<string, string> entry)
         {
+			// Forming connection string URL
             string connString = "server=database-new.cse.tamu.edu;database=jdonais-pokemonproject;uid=jdonais;pwd=11Jordan18SQL;";
             using (SqlConnection conn = new SqlConnection(connString))
             {
@@ -146,6 +167,7 @@ namespace PokemonsParser
                 sqlStat += "GUID,";
                 sqlStat += string.Join(",", attributes.ToArray());
                 sqlStat += ") VALUES(@GUID,";
+
                 // Add the parameter values...
                 for (int i = 0; i < attributes.Count; i++)
                 {
@@ -154,6 +176,7 @@ namespace PokemonsParser
                 sqlStat += string.Join(",", attributes.ToArray());
                 sqlStat += ");";
 
+				//Forming sql command with a SqlDBType attributes
                 SqlCommand com = new SqlCommand(sqlStat, conn);
                 com.Parameters.Add("@GUID", System.Data.SqlDbType.Char, 128).Value = System.Guid.NewGuid();
                 com.Parameters.Add("@NationalID", System.Data.SqlDbType.Int).Value = entry["NationalID"];
@@ -168,6 +191,7 @@ namespace PokemonsParser
                 com.Parameters.Add("@Weight", System.Data.SqlDbType.Char, 36).Value = entry["Weight"];
                 com.Parameters.Add("@Description", System.Data.SqlDbType.Char, 255).Value = entry["Description"];
 
+				//Attempt to execute query on setup connection
                 try
                 {
                     conn.Open();
@@ -181,6 +205,7 @@ namespace PokemonsParser
             }
         }
 
+		// Gives a double for the first two letters of a given string
         static public double stringToDouble(string input)
         {
             string tVal = input.Substring(0, 1);
@@ -191,10 +216,12 @@ namespace PokemonsParser
             return Convert.ToInt32(tVal);
         }
 
+		// Attach natures table to the rest of the tables 
         static public void hookup_natures()
         {
             string sqlStat = "";
 
+			//Populating given dictionaries
             foreach (KeyValuePair<string, string> kvp in pokemon)
             {
                 foreach (KeyValuePair<string, string> nature in natures)
@@ -205,16 +232,19 @@ namespace PokemonsParser
                     sqlStat += ");\n";
                 }
             }
+
+			//Writing queries to sql file
             using (StreamWriter output = new StreamWriter(".\\sql_nature_link.sql", true))
             {
                 output.Write(sqlStat);
             }
         }
   
-
+		// Attach weaknesses table to the rest of the tables
         static public void hookup_weaknesses()
         {
             Dictionary<string, Dictionary<string, List<string>>> typeAdv = new Dictionary<string, Dictionary<string, List<string>>>();
+
             // Setup this Dictionary object...
             foreach (KeyValuePair<string, string> t in types)
             {
@@ -224,6 +254,8 @@ namespace PokemonsParser
             }
             string sqlStatWeak = "";
             string sqlStatStrong = "";
+
+			// Parse xml file for information
             using (XmlReader reader = XmlReader.Create(".\\types.xml"))
             {
                 while (reader.Read())
@@ -285,12 +317,12 @@ namespace PokemonsParser
                 }
             }
 
-
+			// Writing weaknesses to sql file
             using (StreamWriter output = new StreamWriter(".\\sql_weaknesses.sql", true))
             {
                 output.Write(sqlStatWeak);
             }
-
+			// Writing strengths to sql file
             using (StreamWriter output = new StreamWriter(".\\sql_stregths.sql", true))
             {
                 output.Write(sqlStatStrong);
@@ -306,6 +338,8 @@ namespace PokemonsParser
         {
             string sqlStat = "";
             bool isDone = false;
+
+			// Reading xml file for data
             using (XmlReader reader = XmlReader.Create(".\\pokemonListing.xml"))
             {
                 while (reader.Read())
@@ -377,6 +411,8 @@ namespace PokemonsParser
                     }
                 }
             }
+
+			// Write evolution information to file
             using (StreamWriter output = new StreamWriter(".\\sql_evolution_link.sql", true))
             {
                 output.Write(sqlStat);
@@ -459,6 +495,8 @@ namespace PokemonsParser
         {
             string sqlStat = "";
             bool isDone = false;
+
+			// Readign form xml file
             using (XmlReader reader = XmlReader.Create(".\\pokemonListing.xml"))
             {
                 while (reader.Read())
@@ -504,6 +542,8 @@ namespace PokemonsParser
                     }
                 }
             }
+
+			// Write result to sql file
             using (StreamWriter output = new StreamWriter(".\\sql_tm_link.sql", true))
             {
                 output.Write(sqlStat);
@@ -561,6 +601,7 @@ namespace PokemonsParser
                     }
                 }
             }
+			// Write output to sql file
             using (StreamWriter output = new StreamWriter(".\\sql_type_link.sql", true))
             {
                 output.Write(sqlStat);
@@ -577,6 +618,8 @@ namespace PokemonsParser
         {
             string sqlStat = "";
             bool isDone = false;
+
+			// Read data from xml
             using (XmlReader reader = XmlReader.Create(".\\pokemonListing.xml"))
             {
                 while (reader.Read())
