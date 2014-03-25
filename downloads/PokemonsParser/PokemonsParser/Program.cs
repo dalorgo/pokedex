@@ -743,7 +743,7 @@ namespace PokemonsParser
                                             }
                                             else
                                             {
-                                                sqlStat += locMove["Power_"] + ",";
+                                                sqlStat += cleanString(locMove["Power_"]) + ",";
                                             }
                                             if (locMove["Accuracy"] == "Varies" || locMove["Accuracy"] == "None" || locMove["Accuracy"] == "K/O")
                                             {
@@ -751,7 +751,7 @@ namespace PokemonsParser
                                             }
                                             else
                                             {
-                                                sqlStat += locMove["Accuracy"] + ",";
+                                                sqlStat += cleanString(locMove["Accuracy"]) + ",";
                                             }
                                             sqlStat += locMove["PP"];                                                
                                             sqlStat += ");\n";

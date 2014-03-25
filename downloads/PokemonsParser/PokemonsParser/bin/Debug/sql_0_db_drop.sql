@@ -1,0 +1,1 @@
+drop table Nature, Evolutions, MoveSet, TMs, Type_, Weaknesses, Strengths, Pokemon, Ability, Abilities, Natures, Types, Moves;

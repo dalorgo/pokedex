@@ -31,8 +31,8 @@ CREATE TABLE Moves (
 	Name 		CHAR(128),
 	Type_ 		CHAR(20),
 	Kind 		CHAR(20),
-	Power_		INT,
-	Accuracy	INT,
+	Power_		CHAR(20),
+	Accuracy	CHAR(20),
 	PP			INT
 );
 
@@ -77,7 +77,7 @@ CREATE TABLE MoveSet (
 	PokemonUID	CHAR(128),
 	MoveUID		CHAR(128),
 	Level_		INT,
-	PRIMARY KEY (PokemonUID, MoveUID)
+	PRIMARY KEY (PokemonUID, MoveUID, Level_)
 );
 
 CREATE TABLE TMs (
