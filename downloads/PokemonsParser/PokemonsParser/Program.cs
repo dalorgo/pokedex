@@ -427,6 +427,8 @@ namespace PokemonsParser
             Console.WriteLine("Finished linking evolutions...");
         }
 
+
+        // HUGE BUG HERE, FIX ISSUE WITH SKIPPING POKEMON ALTOGETHER. INVESTIGATE OTHER FUNCTIONS AS WELL!!!!!!!!!!!!!!!!!!!
         /// <summary>
         /// Parses the moves a Pokemon can learn and links those moves to the Pokemon.
         /// </summary>
@@ -450,6 +452,10 @@ namespace PokemonsParser
                                             // Read until we hit the first ability tag
                                             string pokeName = reader.GetAttribute(0); // for lookup purposes
                                             // This Pokemon is the start of the generation we do not consider
+                                            if (pokeName == "Golem")
+                                            {
+                                                Console.WriteLine("Hi");
+                                            }
                                             if (pokeName == "Treecko") isDone = true;
                                             if (isDone) break;
                                             while (reader.Name != "MoveListing") reader.Read();
