@@ -6,8 +6,8 @@ CREATE TABLE Pokemon (
 	Attack INT,
 	Defense INT,
 	Speed INT,
-	Height CHAR(36),
-	Weight CHAR(36),
+	Height INT,
+	Weight FLOAT,
 	SpecialDef INT,
 	SpecialAtk INT,
 	Description CHAR(255)

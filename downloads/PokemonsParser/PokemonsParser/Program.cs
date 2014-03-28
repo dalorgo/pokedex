@@ -80,8 +80,8 @@ namespace PokemonsParser
             switch (val)
             {
                 case "Name":
-                case "Height":
-                case "Weight":
+                //case "Height":
+                //case "Weight":
                 case "Description":
                     return true;
                 default: return false;
@@ -428,7 +428,6 @@ namespace PokemonsParser
         }
 
 
-        // HUGE BUG HERE, FIX ISSUE WITH SKIPPING POKEMON ALTOGETHER. INVESTIGATE OTHER FUNCTIONS AS WELL!!!!!!!!!!!!!!!!!!!
         /// <summary>
         /// Parses the moves a Pokemon can learn and links those moves to the Pokemon.
         /// </summary>
@@ -452,15 +451,17 @@ namespace PokemonsParser
                                             // Read until we hit the first ability tag
                                             string pokeName = reader.GetAttribute(0); // for lookup purposes
                                             // This Pokemon is the start of the generation we do not consider
-                                            if (pokeName == "Golem")
-                                            {
-                                                Console.WriteLine("Hi");
-                                            }
                                             if (pokeName == "Treecko") isDone = true;
                                             if (isDone) break;
                                             while (reader.Name != "MoveListing") reader.Read();
-                                            if (reader.GetAttribute(0) != "II") break;
-                                            // Read the moves!
+                                            if (reader.GetAttribute(0) != "II")
+                                            {
+                                                reader.Read();
+                                                while (reader.Name != "MoveListing" || reader.NodeType != XmlNodeType.EndElement) reader.Read();
+                                                reader.Read();
+                                                while (reader.Name != "MoveListing") reader.Read();
+                                            }
+                                            // Read the moves!                                            
                                             while (reader.Name != "MoveListing" || reader.GetAttribute(0) == "II")
                                             {
                                                 reader.Read();
@@ -471,6 +472,7 @@ namespace PokemonsParser
                                                 {
                                                     break;
                                                 }
+                                                // Movename is wrong!
                                                 string moveName = reader.Value;
                                                 reader.Read();
                                                 while (reader.NodeType != XmlNodeType.Element) reader.Read();
@@ -527,7 +529,11 @@ namespace PokemonsParser
                                             if (pokeName == "Treecko") isDone = true;
                                             if (isDone) break;
                                             while (reader.Name != "TMListing") reader.Read();
-                                            if (reader.GetAttribute(0) != "II") break;
+                                            if (reader.GetAttribute(0) != "II")
+                                            {
+                                                reader.Read();
+                                                while (reader.Name != "TMListing" && reader.NodeType != XmlNodeType.EndElement) reader.Read();
+                                            }
                                             // Read the moves!
                                             while (reader.Name != "TMListing" || reader.GetAttribute(0) == "II")
                                             {
@@ -535,7 +541,7 @@ namespace PokemonsParser
                                                 if (reader.NodeType == XmlNodeType.EndElement) break;
                                                 while (reader.NodeType != XmlNodeType.Element || reader.Name == "MoveItem") reader.Read();
                                                 reader.Read();
-                                                if (reader.Value == "None")
+                                                if (reader.Value == "None" || reader.Value == "\n      ")
                                                 {
                                                     break;
                                                 }
@@ -935,6 +941,43 @@ namespace PokemonsParser
             Console.WriteLine("Finished generating types...");
         }
 
+        static public string cleanHeight(string input)
+        {
+            int temp = 0;
+
+            if (input.Contains("'"))
+            {
+                temp = Convert.ToInt32(input.Substring(0, input.IndexOf('\''))) * 12;
+            }
+            if (input.Contains("\""))
+            {
+                if (input.Contains("'")) 
+                {
+                    temp += Convert.ToInt32(input.Substring(input.IndexOf('\'') + 1, input.IndexOf('\"') - input.IndexOf('\'') - 1));
+                } 
+                else 
+                {
+                    temp += Convert.ToInt32(input.Substring(0, input.IndexOf('\"')));
+                }
+                
+            }
+
+            return temp.ToString();
+
+        }
+
+        static public string cleanWeight(string input)
+        {
+            string temp = input;
+
+            if (input.Contains("lbs"))
+            {
+                temp = temp.Substring(0, temp.IndexOf("lbs"));
+            }
+
+            return temp;
+        }
+
         /// <summary>
         /// Parses the XML file for Pokemon and formats them for SQL insertion.
         /// </summary>
@@ -976,13 +1019,13 @@ namespace PokemonsParser
                                         reader.Read();
                                         while (reader.NodeType != XmlNodeType.Element) reader.Read();
                                         reader.Read();
-                                        // This should be Height
-                                        entry["Height"] = reader.Value;
+                                        // This should be Weight
+                                        entry["Weight"] = cleanWeight(reader.Value);
                                         reader.Read();
                                         while (reader.NodeType != XmlNodeType.Element) reader.Read();
                                         reader.Read();
-                                        // This should be Weight
-                                        entry["Weight"] = reader.Value;
+                                        // This should be Height
+                                        entry["Height"] = cleanHeight(reader.Value);
                                         break;
                                     }
                                 case "Stat":
